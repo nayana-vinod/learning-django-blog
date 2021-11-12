@@ -30,3 +30,7 @@ $RECYCLE.BIN/
 .vscode/
 .history/
 *.code-workspace
+
+# settings added for heroku
+# Because it's more restrictive than PythonAnywhere, Heroku wants to use different settings from the ones we use on our locally (on our computer). Heroku wants to use Postgres while we use SQLite for example. That's why we need to create a separate file for settings that will only be available for our local environment.
+local_settings.py
